@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <title>Pendaftaran Siswa Baru</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="container">
+  <header>
+    <img src="logo.png" alt="Logo Sekolah" class="logo" />
+    <h1>SMP Islam Integral Luqman Al Hakim</h1>
+    <p>Islamic Boarding School - Purwodadi</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Beranda</a>
+    <a href="berita.html">Berita</a>
+    <a href="galeri.html">Galeri</a>
+    <a href="pendaftaran.html">Pendaftaran</a>
+    <a href="login.html">Login Admin</a>
+  </nav>
+
+  <main>
+    <h2 style="text-align: center;">Formulir Pendaftaran Calon Siswa Baru</h2>
+    <form action="#" method="post" class="formulir">
+      <label>Nama Lengkap:</label>
+      <input type="text" name="nama" required />
+
+      <label>Jenis Kelamin:</label>
+      <select name="jk" required>
+        <option value="">-- Pilih --</option>
+        <option value="L">Laki-laki</option>
+        <option value="P">Perempuan</option>
+      </select>
+
+      <label>Tempat Lahir:</label>
+      <input type="text" name="tempat" required />
+
+      <label>Tanggal Lahir:</label>
+      <input type="date" name="tanggal" required />
+
+      <label>Asal Sekolah:</label>
+      <input type="text" name="asal" required />
+
+      <label>Alamat:</label>
+      <textarea name="alamat" rows="3" required></textarea>
+
+      <label>Nama Orang Tua (Ayah/Ibu):</label>
+      <input type="text" name="ortu" required />
+
+      <label>Nomor WhatsApp:</label>
+      <input type="tel" name="wa" required placeholder="08xxxxxxxxxx" />
+
+      <button type="submit">Kirim Pendaftaran</button>
+    </form>
+  </main>
+  </div>
+
+  <footer>
+    &copy; 2025 SMP Islam Integral Luqman Al Hakim. All rights reserved.
+  </footer>
+</body>
+</html>
